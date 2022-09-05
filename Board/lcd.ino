@@ -273,7 +273,7 @@ void lcd_main() {
         lcd.setCursor(0, 0);
         lcd.print(" BERHASIL REGISTER  ");
         lcd.setCursor(0, 1);
-        lcd.print("UID = " + String(uidRFID) + "  ");
+        lcd.print("UID=" + String(uidRFID) + "    ");
         lcd.setCursor(0, 2);
         lcd.print("     ID ANDA = " + String(id) + "   ");
         lcd.setCursor(0, 3);
