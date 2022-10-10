@@ -1,0 +1,69 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro Flat",
+    "files.autoSave": "onFocusChange",
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontSize": 18,
+    // "editor.wordWrap": "wordWrapColumn",
+    "editor.tabSize": 2,
+    "prettier.requireConfig": false,
+    "prettier.semi": false,
+    "editor.codeActionsOnSave": { "source.fixAll": true },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "eslint.alwaysShowStatus": true,
+    "html.format.enable": false,
+    "htmlhint.enable": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnSave": true
+    },
+    "rainbowTags.allowEverywhere": true,
+    "emmet.triggerExpansionOnTab": true,
+    "js/ts.implicitProjectConfig.checkJS": true,
+    "editor.linkedEditing": true,
+    "files.associations": {
+        "*.ejs": "html"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vsicons.dontShowNewVersionMessage": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "redhat.telemetry.enabled": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+        "editor.defaultFormatter": "Dart-Code.dart-code"
+    },
+    "window.zoomLevel": 0
+}
